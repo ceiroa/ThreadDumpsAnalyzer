@@ -1,0 +1,42 @@
+Full thread dump Java HotSpot(TM) 64-Bit Server VM (11.3-b02 mixed mode):
+
+"RMI TCP Connection(idle)" daemon prio=10 tid=0x0000000051c95000 nid=0x787 runnable [0x0000000000000000..0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"RMI TCP Connection(11620)-10.7.40.28" daemon prio=10 tid=0x0000000051b31000 nid=0x7f86 runnable [0x0000000055078000..0x0000000055078c10]
+   java.lang.Thread.State: RUNNABLE
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:92)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:136)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:65)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:123)
+	- locked <0x00002aab6c7e7740> (a java.io.BufferedOutputStream)
+	at java.io.DataOutputStream.flush(DataOutputStream.java:106)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:770)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+
+"RMI TCP Connection(idle)" daemon prio=10 tid=0x0000000051094400 nid=0x7f84 waiting on condition [0x000000005678f000..0x000000005678fb10]
+   java.lang.Thread.State: TIMED_WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x00002aab6e2754e8> (a java.util.concurrent.SynchronousQueue$TransferStack)
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:198)
+	at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:424)
+	at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:323)
+	at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:874)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:945)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:907)
+	at java.lang.Thread.run(Thread.java:619)
+	
+"http-0.0.0.0-1080-Acceptor-0" daemon prio=10 tid=0x00002aad05308000 nid=0x3149 runnable [0x00000000486fd000..0x00000000486fdb90]
+   java.lang.Thread.State: RUNNABLE
+	at java.net.PlainSocketImpl.socketAccept(Native Method)
+	at java.net.PlainSocketImpl.accept(PlainSocketImpl.java:384)
+	- locked <0x00002aab728b7708> (a java.net.SocksSocketImpl)
+	at java.net.ServerSocket.implAccept(ServerSocket.java:453)
+	at java.net.ServerSocket.accept(ServerSocket.java:421)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.acceptSocket(DefaultServerSocketFactory.java:61)
+	at org.apache.tomcat.util.net.JIoEndpoint$Acceptor.run(JIoEndpoint.java:309)
+	at java.lang.Thread.run(Thread.java:619)

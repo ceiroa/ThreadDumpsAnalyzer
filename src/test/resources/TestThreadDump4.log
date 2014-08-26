@@ -1,0 +1,122 @@
+
+"http-0.0.0.0-1080-1" daemon prio=10 tid=0x00000000509e0400 nid=0x314a runnable [0x00000000487f4000..0x00000000487fec10]
+   java.lang.Thread.State: RUNNABLE
+	at java.lang.reflect.Method.toString(Method.java:400)
+	at org.jboss.aop.metadata.MethodMetaData.getMethodMetaData(MethodMetaData.java:166)
+	at org.jboss.aop.metadata.MethodMetaData.resolve(MethodMetaData.java:179)
+	at org.jboss.aop.joinpoint.MethodInvocation.getMetaData(MethodInvocation.java:216)
+	at com.ceiroa.interceptor.invoke(NBMMediatorServerInterceptor.java:17)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+	at org.jboss.ejb3.stateless.StatelessContainer.localInvoke(StatelessContainer.java:240)
+	at org.jboss.ejb3.stateless.StatelessContainer.localInvoke(StatelessContainer.java:210)
+	at org.jboss.ejb3.stateless.StatelessLocalProxy.invoke(StatelessLocalProxy.java:84)
+	at $Proxy538.getUsersByCriteria(Unknown Source)
+	at com.ceiroa.UsersFacade.getUsersById(UsersFacadeImpl.java:36)
+	at sun.reflect.GeneratedMethodAccessor1755.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	
+
+"http-0.0.0.0-1080-1" daemon prio=10 tid=0x00000000509e0400 nid=0x314a runnable [0x00000000487f4000..0x00000000487fec10]
+   java.lang.Thread.State: RUNNABLE
+	at java.lang.reflect.Method.toString(Method.java:400)
+	at org.jboss.aop.metadata.MethodMetaData.getMethodMetaData(MethodMetaData.java:166)
+	at org.jboss.aop.metadata.MethodMetaData.resolve(MethodMetaData.java:179)
+	at org.jboss.aop.joinpoint.MethodInvocation.getMetaData(MethodInvocation.java:216)
+	at com.ceiroa.interceptor.invoke(NBMMediatorServerInterceptor.java:17)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+	at org.jboss.ejb3.stateless.StatelessContainer.localInvoke(StatelessContainer.java:240)
+	at org.jboss.ejb3.stateless.StatelessContainer.localInvoke(StatelessContainer.java:210)
+	at org.jboss.ejb3.stateless.StatelessLocalProxy.invoke(StatelessLocalProxy.java:84)
+	at $Proxy538.getUsersByCriteria(Unknown Source)
+	at com.ceiroa.UsersFacade.getUsersById(UsersFacadeImpl.java:36)
+	at sun.reflect.GeneratedMethodAccessor1755.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	
+"http-0.0.0.0-1080-1" daemon prio=10 tid=0x00000000509e0400 nid=0x314a runnable [0x00000000487f4000..0x00000000487fec10]
+   java.lang.Thread.State: RUNNABLE
+	at java.lang.reflect.Method.toString(Method.java:400)
+	at org.jboss.aop.metadata.MethodMetaData.getMethodMetaData(MethodMetaData.java:166)
+	at org.jboss.aop.metadata.MethodMetaData.resolve(MethodMetaData.java:179)
+	at org.jboss.aop.joinpoint.MethodInvocation.getMetaData(MethodInvocation.java:216)
+	at com.ceiroa.interceptor.invoke(NBMMediatorServerInterceptor.java:17)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+	at org.jboss.ejb3.stateless.StatelessContainer.localInvoke(StatelessContainer.java:240)
+	at org.jboss.ejb3.stateless.StatelessContainer.localInvoke(StatelessContainer.java:210)
+	at org.jboss.ejb3.stateless.StatelessLocalProxy.invoke(StatelessLocalProxy.java:84)
+	at $Proxy538.getUsersByCriteria(Unknown Source)
+	at com.ceiroa.UsersFacade.getUsersById(UsersFacadeImpl.java:36)
+	at sun.reflect.GeneratedMethodAccessor1755.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	
+"http-0.0.0.0-1080-1" daemon prio=10 tid=0x00000000509e0400 nid=0x314a runnable [0x00000000487f4000..0x00000000487fec10]
+   java.lang.Thread.State: RUNNABLE
+	at java.lang.reflect.Method.toString(Method.java:400)
+	at org.jboss.aop.metadata.MethodMetaData.getMethodMetaData(MethodMetaData.java:166)
+	at org.jboss.aop.metadata.MethodMetaData.resolve(MethodMetaData.java:179)
+	at org.jboss.aop.joinpoint.MethodInvocation.getMetaData(MethodInvocation.java:216)
+	at com.ceiroa.interceptor.invoke(NBMMediatorServerInterceptor.java:17)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+	at org.jboss.ejb3.stateless.StatelessContainer.localInvoke(StatelessContainer.java:240)
+	at org.jboss.ejb3.stateless.StatelessContainer.localInvoke(StatelessContainer.java:210)
+	at org.jboss.ejb3.stateless.StatelessLocalProxy.invoke(StatelessLocalProxy.java:84)
+	at $Proxy538.getUsersByCriteria(Unknown Source)
+	at com.ceiroa.UsersFacade.getUsersById(UsersFacadeImpl.java:36)
+	at sun.reflect.GeneratedMethodAccessor1755.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	
+"http-0.0.0.0-1080-1" daemon prio=10 tid=0x00000000509e0400 nid=0x314a runnable [0x00000000487f4000..0x00000000487fec10]
+   java.lang.Thread.State: RUNNABLE
+	at java.lang.reflect.Method.toString(Method.java:400)
+	at org.jboss.aop.metadata.MethodMetaData.getMethodMetaData(MethodMetaData.java:166)
+	at org.jboss.aop.metadata.MethodMetaData.resolve(MethodMetaData.java:179)
+	at org.jboss.aop.joinpoint.MethodInvocation.getMetaData(MethodInvocation.java:216)
+	at com.ceiroa.interceptor.invoke(NBMMediatorServerInterceptor.java:17)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+	at org.jboss.ejb3.stateless.StatelessContainer.localInvoke(StatelessContainer.java:240)
+	at org.jboss.ejb3.stateless.StatelessContainer.localInvoke(StatelessContainer.java:210)
+	at org.jboss.ejb3.stateless.StatelessLocalProxy.invoke(StatelessLocalProxy.java:84)
+	at $Proxy538.getUsersByCriteria(Unknown Source)
+	at com.ceiroa.UsersFacade.getUsersById(UsersFacadeImpl.java:36)
+	at sun.reflect.GeneratedMethodAccessor1755.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	
+	
+"http-0.0.0.0-1080-1" daemon prio=10 tid=0x00000000509e0400 nid=0x314a runnable [0x00000000487f4000..0x00000000487fec10]
+   java.lang.Thread.State: RUNNABLE
+	at java.lang.reflect.Method.toString(Method.java:400)
+	at org.jboss.aop.metadata.MethodMetaData.getMethodMetaData(MethodMetaData.java:166)
+	at org.jboss.aop.metadata.MethodMetaData.resolve(MethodMetaData.java:179)
+	at org.jboss.aop.joinpoint.MethodInvocation.getMetaData(MethodInvocation.java:216)
+	at com.ceiroa.interceptor.invoke(NBMMediatorServerInterceptor.java:17)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+	at org.jboss.ejb3.stateless.StatelessContainer.localInvoke(StatelessContainer.java:240)
+	at org.jboss.ejb3.stateless.StatelessContainer.localInvoke(StatelessContainer.java:210)
+	at org.jboss.ejb3.stateless.StatelessLocalProxy.invoke(StatelessLocalProxy.java:84)
+	at $Proxy538.getUsersByCriteria(Unknown Source)
+	at com.ceiroa.UsersFacade.getUsersById(UsersFacadeImpl.java:36)
+	at sun.reflect.GeneratedMethodAccessor1755.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	
+	
+"http-0.0.0.0-1080-1" daemon prio=10 tid=0x00000000509e0400 nid=0x314a runnable [0x00000000487f4000..0x00000000487fec10]
+   java.lang.Thread.State: RUNNABLE
+	at java.lang.reflect.Method.toString(Method.java:400)
+	at org.jboss.aop.metadata.MethodMetaData.getMethodMetaData(MethodMetaData.java:166)
+	at org.jboss.aop.metadata.MethodMetaData.resolve(MethodMetaData.java:179)
+	at org.jboss.aop.joinpoint.MethodInvocation.getMetaData(MethodInvocation.java:216)
+	at com.ceiroa.interceptor.invoke(NBMMediatorServerInterceptor.java:17)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:101)
+	at org.jboss.ejb3.stateless.StatelessContainer.localInvoke(StatelessContainer.java:240)
+	at org.jboss.ejb3.stateless.StatelessContainer.localInvoke(StatelessContainer.java:210)
+	at org.jboss.ejb3.stateless.StatelessLocalProxy.invoke(StatelessLocalProxy.java:84)
+	at $Proxy538.getUsersByCriteria(Unknown Source)
+	at com.ceiroa.UsersFacade.getUsersById(UsersFacadeImpl.java:36)
+	at sun.reflect.GeneratedMethodAccessor1755.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)

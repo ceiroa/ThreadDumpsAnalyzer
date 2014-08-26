@@ -1,0 +1,42 @@
+{Heap before GC invocations=0 (full 0):
+ par new generation   total 2621440K, used 1300240K [0x00002aaaae200000, 0x00002aab6e200000, 0x00002aab6e200000)
+  eden space 2097152K,  62% used [0x00002aaaae200000, 0x00002aaafd7c4390, 0x00002aab2e200000)
+  from space 524288K,   0% used [0x00002aab2e200000, 0x00002aab2e200000, 0x00002aab4e200000)
+  to   space 524288K,   0% used [0x00002aab4e200000, 0x00002aab4e200000, 0x00002aab6e200000)
+ tenured generation   total 6291456K, used 0K [0x00002aab6e200000, 0x00002aacee200000, 0x00002aacee200000)
+   the space 6291456K,   0% used [0x00002aab6e200000, 0x00002aab6e200000, 0x00002aab6e200200, 0x00002aacee200000)
+ compacting perm gen  total 262144K, used 15618K [0x00002aacee200000, 0x00002aacfe200000, 0x00002aacfe200000)
+   the space 262144K,   5% used [0x00002aacee200000, 0x00002aacef140970, 0x00002aacef140a00, 0x00002aacfe200000)
+No shared spaces configured.
+Heap after GC invocations=1 (full 1):
+ par new generation   total 2621440K, used 0K [0x00002aaaae200000, 0x00002aab6e200000, 0x00002aab6e200000)
+  eden space 2097152K,   0% used [0x00002aaaae200000, 0x00002aaaae200000, 0x00002aab2e200000)
+  from space 524288K,   0% used [0x00002aab2e200000, 0x00002aab2e200000, 0x00002aab4e200000)
+  to   space 524288K,   0% used [0x00002aab4e200000, 0x00002aab4e200000, 0x00002aab6e200000)
+ tenured generation   total 6291456K, used 6683K [0x00002aab6e200000, 0x00002aacee200000, 0x00002aacee200000)
+   the space 6291456K,   0% used [0x00002aab6e200000, 0x00002aab6e886f58, 0x00002aab6e887000, 0x00002aacee200000)
+ compacting perm gen  total 262144K, used 15618K [0x00002aacee200000, 0x00002aacfe200000, 0x00002aacfe200000)
+   the space 262144K,   5% used [0x00002aacee200000, 0x00002aacef140970, 0x00002aacef140a00, 0x00002aacfe200000)
+No shared spaces configured.
+}
+{Heap before GC invocations=1 (full 1):
+ par new generation   total 2621440K, used 1504347K [0x00002aaaae200000, 0x00002aab6e200000, 0x00002aab6e200000)
+  eden space 2097152K,  71% used [0x00002aaaae200000, 0x00002aab09f16c20, 0x00002aab2e200000)
+  from space 524288K,   0% used [0x00002aab2e200000, 0x00002aab2e200000, 0x00002aab4e200000)
+  to   space 524288K,   0% used [0x00002aab4e200000, 0x00002aab4e200000, 0x00002aab6e200000)
+ tenured generation   total 6291456K, used 6683K [0x00002aab6e200000, 0x00002aacee200000, 0x00002aacee200000)
+   the space 6291456K,   0% used [0x00002aab6e200000, 0x00002aab6e886f58, 0x00002aab6e887000, 0x00002aacee200000)
+ compacting perm gen  total 262144K, used 56896K [0x00002aacee200000, 0x00002aacfe200000, 0x00002aacfe200000)
+   the space 262144K,  21% used [0x00002aacee200000, 0x00002aacf1990350, 0x00002aacf1990400, 0x00002aacfe200000)
+No shared spaces configured.
+Heap after GC invocations=2 (full 2):
+ par new generation   total 2621440K, used 0K [0x00002aaaae200000, 0x00002aab6e200000, 0x00002aab6e200000)
+  eden space 2097152K,   0% used [0x00002aaaae200000, 0x00002aaaae200000, 0x00002aab2e200000)
+  from space 524288K,   0% used [0x00002aab2e200000, 0x00002aab2e200000, 0x00002aab4e200000)
+  to   space 524288K,   0% used [0x00002aab4e200000, 0x00002aab4e200000, 0x00002aab6e200000)
+ tenured generation   total 6291456K, used 79547K [0x00002aab6e200000, 0x00002aacee200000, 0x00002aacee200000)
+   the space 6291456K,   1% used [0x00002aab6e200000, 0x00002aab72faee90, 0x00002aab72faf000, 0x00002aacee200000)
+ compacting perm gen  total 262144K, used 56896K [0x00002aacee200000, 0x00002aacfe200000, 0x00002aacfe200000)
+   the space 262144K,  21% used [0x00002aacee200000, 0x00002aacf1990350, 0x00002aacf1990400, 0x00002aacfe200000)
+No shared spaces configured.
+}
